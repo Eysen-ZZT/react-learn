@@ -37,7 +37,7 @@ export function FilterableProductTable() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [filterText, inStockOnly]);
   return (
-    <div>
+    <div style={{height: 300}}>
       <SearchBar
         filterText={filterText}
         inStockOnly={inStockOnly}
